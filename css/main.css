@@ -114,8 +114,8 @@ footer{
 
 
 header {
-    width:   ;
-
+    padding: 15px 0;
+}
 }
 
 header .content-wrapper {
@@ -123,6 +123,7 @@ header .content-wrapper {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
 
 }
 
@@ -130,7 +131,12 @@ header figure {
 
 }
 
+.contact-wrapper {
+    width: 100%;
+}
+
 .header-devider {
+    width:     ;
 
 }
 
@@ -139,6 +145,7 @@ header nav {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
 
 }
 
@@ -154,6 +161,7 @@ header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 44%;
 }
 
 .hero-area {
@@ -166,12 +174,23 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
+    padding: 28px 36px;
 }
+
+
+
 .features {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 48px; 
+}
+
+.features article{
+    width: 100%;
+    padding: 60px;
 }
 
 .features .features-items {
@@ -179,13 +198,23 @@ aside {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-}    
+    width: 55%;
+}  
+
+.features p {
+    margin: 0px;
+}
 
 .reviews {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 50px;
+}
+
+.reviews h3{
+    width: 47%;
 }
 
 .reviews .content-wrapper {
@@ -223,6 +252,25 @@ aside {
     flex-flow: row wrap;
 }
 
+/*----------------Mobile Styles - Homepage------------*/
+
+.hero-area {
+    flex-flow: row wrap;
+
+}
+
+
+/*------footer------*/
+
+footer {
+    padding: 46px 0;
+}
+
+footer .comtent-wrapper {
+    width: 55%;
+    margin: 50px 0;
+}
+
 footer .social-icons {
     display: flex;
     justify-content: center;
@@ -235,22 +283,8 @@ footer .social {
     align-items: center;
 }
 
-/*----------------Mobile Styles - Homepage------------*/
-
-.hero-area {
-    flex-flow: row wrap;
-
-}
-
-aside {
-    flex-flow: row wrap;
-
-}
-
-/*------footer------*/
-
-footer {
-
+footer p {
+    margin: 0px;
 }
 
 
