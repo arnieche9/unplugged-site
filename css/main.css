@@ -102,8 +102,57 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* General Styles */
+ 
+html {
+    font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+ 
+ul, 
+ol {
+  list-style-type: none;
+ 
+}
+ 
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+  
+}
+ 
+h3, 
+h4 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.875em;
+}
+ 
+p {
+  font-size: 1.125em;
+  line-height: 30px;
+	
+}
+ 
+ 
+address {
+  font-style: normal;
+ 
+}
+ 
+
 .contact-wrapper {
-    width: 100%;
+    width: 90%;
+    margin: 50px 0;
 }
 
 /*---------base-header----footer---styles--------*/
@@ -147,40 +196,40 @@ header nav ul {
     display: flex;
     justify-content: space-around;
     width: 100%;
-  }
+}
   
   footer {
     flex-direction: column;
-  }
+}
   
   footer p {
     margin: 0;
-  }
+}
   
-  footer .content-wrapper {
+footer .content-wrapper {
     width: 55%;
     margin: 50px 0;
-  }
+}
   
-  footer .contact {
+footer .contact {
     margin-bottom: 50px;
   }
   
-  footer .social-icons {
+footer .social-icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
+}
   
-  footer .social-icons p {
+footer .social-icons p {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  footer .copyright {
+footer .copyright {
     margin: 20px 0;
-  }
+}
   
   /* -------------------- Mobile Styles - Homepage -------------------- */
 
@@ -194,7 +243,7 @@ header nav ul {
   
   /* Aside */
   
-  aside {
+ aside {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,17 +252,17 @@ header nav ul {
   
   /* Features */
   
-  .features {
+.features {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
   }
   
-  .features h2 {
+.features h2 {
     margin-bottom: 60px;
   }
   
-  .features article {
+.features article {
     width: 55%;
     margin: 30px 0;
   }
@@ -225,23 +274,23 @@ header nav ul {
     flex-flow: row wrap;
   }
   
-  .features p {
+.features p {
     margin: 0;
   }
   
   /* Reviews */
   
-  .reviews {
+.reviews {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
   }
   
-  .reviews h2 {
+.reviews h2 {
     margin-bottom: 40px;
   }
   
-  .reviews h3 {
+.reviews h3 {
     width: 55%;
     margin: 20px 0;
   }
@@ -250,21 +299,21 @@ header nav ul {
      About Page
      ========================================================================== */
   
-  .mission {
+.mission {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
   }
   
-  .contact-section {
+.contact-section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
   }
   
-  .contact-content p {
+.contact-content p {
     margin: 0;
   }
 
@@ -272,7 +321,7 @@ header nav ul {
    FAQ Page
    ========================================================================== */
 
-   .faq {
+.faq {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -287,11 +336,11 @@ header nav ul {
     flex-flow: row wrap;
   }
   
-  .faq h2 {
+.faq h2 {
     margin-bottom: 40px;
   }
   
-  .faq-content {
+.faq-content {
     margin-bottom: 50px;
   }
 
@@ -303,7 +352,7 @@ header nav ul {
  * Hide visually and from screen readers
  */
 
- .hidden {
+.hidden {
   display: none !important;
 }
 
