@@ -391,7 +391,7 @@ header figure {
   .map figure {
     width: 100%;
     height: 0; 
-    padding-bottom: 80%; 
+    padding-bottom: 125%; 
     overflow: hidden;
     position: relative;
 }
@@ -638,6 +638,23 @@ header figure {
       justify-content: space-between;
       align-items: flex-start;
     }
+
+    .map figure {
+      width: 45%;
+      height: 0; 
+      padding-bottom: 45%; 
+      overflow: hidden;
+      position: relative;
+  }
+
+    .map iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+  }
+ 
   
     /* ==========================================================================
      FAQ Page
@@ -692,6 +709,8 @@ aside .content-wrapper {
         .reviews article div {
             width: 50%;
         }
+
+        
      
     /* ==========================================================================
        About Page
@@ -704,6 +723,22 @@ aside .content-wrapper {
         .contact-section .content-wrapper h2 {
             margin-bottom: 100%;
         }
+
+        .map figure {
+          width: 450%;
+          height: 0; 
+          padding-bottom: 40%; 
+          overflow: hidden;
+          position: relative;
+      }
+
+        .map iframe {
+          width: 100%;
+          height: 100%;
+          position: absolute; 
+          top: 0; 
+          left: 0; 
+      }
      
      
     /* ==========================================================================
